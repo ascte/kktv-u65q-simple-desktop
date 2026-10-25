@@ -1,0 +1,278 @@
+Activity Resolver Table:
+
+  Non-Data Actions:
+
+      android.settings.BLUETOOTH_SETTINGS:
+
+        23ad0b40 com.konka.systemsetting/com.konka.settings.bluetooth.BluetoothSettingsActivity
+
+      android.intent.action.MAIN:
+
+        1a7d3fcc com.konka.systemsetting/com.konka.settings.about.AboutActivity
+
+        208e691e com.konka.systemsetting/com.konka.settings.connectivity.NetworkActivity
+
+        23ad0b40 com.konka.systemsetting/com.konka.settings.bluetooth.BluetoothSettingsActivity
+
+        29d3a959 com.konka.systemsetting/.MainActivity
+
+        2bde15ff com.konka.systemsetting/com.konka.settings.energy.saving.EnergySettingsActivity
+
+      android.bluetooth.device.action.PAIRING_REQUEST:
+
+        24a4c718 com.konka.systemsetting/com.konka.settings.bluetooth.BluetoothPairingDialog
+
+      android.settings.DEVICE_INFO_SETTINGS:
+
+        1a7d3fcc com.konka.systemsetting/com.konka.settings.about.AboutActivity
+
+      android.settings.WIFI_SETTINGS:
+
+        208e691e com.konka.systemsetting/com.konka.settings.connectivity.NetworkActivity
+
+      com.konka.systemsetting.action.SHOW_MENU:
+
+        208e691e com.konka.systemsetting/com.konka.settings.connectivity.NetworkActivity
+
+      android.settings.ENERGY_SAVING_SETTINGS:
+
+        2bde15ff com.konka.systemsetting/com.konka.settings.energy.saving.EnergySettingsActivity
+
+
+
+Receiver Resolver Table:
+
+  Non-Data Actions:
+
+      android.bluetooth.device.action.PAIRING_REQUEST:
+
+        38517a13 com.konka.systemsetting/com.konka.settings.bluetooth.BluetoothPairingRequest
+
+      konka.action.CANCEL_COUNT_DOWN:
+
+        85c188b com.konka.systemsetting/.SettingsBroadcastReceiver
+
+      com.konka.systemsetting.action.SHOW_MENU:
+
+        85c188b com.konka.systemsetting/.SettingsBroadcastReceiver
+
+      android.intent.action.BOOT_COMPLETED:
+
+        85c188b com.konka.systemsetting/.SettingsBroadcastReceiver
+
+      android.bluetooth.device.action.PAIRING_CANCEL:
+
+        38517a13 com.konka.systemsetting/com.konka.settings.bluetooth.BluetoothPairingRequest
+
+
+
+Key Set Manager:
+
+  [com.konka.systemsetting]
+
+      Signing KeySets: 1
+
+
+
+Packages:
+
+  Package [com.konka.systemsetting] (37628822):
+
+    userId=1000 gids=[]
+
+    sharedUser=SharedUserSetting{31ef730a android.uid.system/1000}
+
+    pkg=Package{283d9070 com.konka.systemsetting}
+
+    codePath=/system/app/SettingsCenter
+
+    resourcePath=/system/app/SettingsCenter
+
+    legacyNativeLibraryDir=/system/app/SettingsCenter/lib
+
+    primaryCpuAbi=armeabi-v7a
+
+    secondaryCpuAbi=null
+
+    versionCode=81611 targetSdk=21
+
+    versionName=1.1
+
+    splits=[base]
+
+    applicationInfo=ApplicationInfo{ad8cfe9 com.konka.systemsetting}
+
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+
+    dataDir=/data/data/com.konka.systemsetting
+
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+
+    timeStamp=1970-01-01 08:00:43
+
+    firstInstallTime=1970-01-01 08:00:43
+
+    lastUpdateTime=1970-01-01 08:00:43
+
+    signatures=PackageSignatures{24dfb46e [3247d58b]}
+
+    permissionsFixed=false haveGids=true installStatus=1
+
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+
+
+
+Shared users:
+
+  SharedUser [android.uid.system] (31ef730a):
+
+    userId=1000 gids=[3003, 1015, 1023, 1004, 2002, 1007, 1028, 1006, 3002, 3001]
+
+    grantedPermissions:
+
+      android.permission.REAL_GET_TASKS
+
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+
+      android.permission.WRITE_SETTINGS
+
+      android.permission.ACCESS_FINE_LOCATION
+
+      android.permission.RESTART_PACKAGES
+
+      android.permission.MODIFY_AUDIO_SETTINGS
+
+      android.permission.SYSTEM_ALERT_WINDOW
+
+      android.permission.GET_TOP_ACTIVITY_INFO
+
+      android.permission.CLEAR_APP_USER_DATA
+
+      android.permission.INSTALL_PACKAGES
+
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE
+
+      android.permission.INTERNAL_SYSTEM_WINDOW
+
+      android.permission.START_ANY_ACTIVITY
+
+      com.konka.appcontroller.permission.WRITE_DB
+
+      android.permission.MANAGE_APP_TOKENS
+
+      android.permission.CHANGE_NETWORK_STATE
+
+      android.permission.MASTER_CLEAR
+
+      android.permission.RECEIVE_BOOT_COMPLETED
+
+      android.permission.REMOVE_TASKS
+
+      android.permission.BLUETOOTH
+
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+
+      android.permission.GET_TASKS
+
+      android.permission.INTERNET
+
+      android.permission.REORDER_TASKS
+
+      android.permission.BLUETOOTH_ADMIN
+
+      android.permission.CONTROL_VPN
+
+      android.permission.READ_EXTERNAL_STORAGE
+
+      android.permission.GET_PACKAGE_SIZE
+
+      android.permission.INTERACT_ACROSS_USERS_FULL
+
+      android.permission.STOP_APP_SWITCHES
+
+      android.permission.BATTERY_STATS
+
+      android.permission.PACKAGE_USAGE_STATS
+
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+
+      android.permission.WRITE_SECURE_SETTINGS
+
+      android.permission.ACCESS_COARSE_LOCATION
+
+      android.permission.READ_PHONE_STATE
+
+      android.permission.DIAGNOSTIC
+
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+
+      android.permission.BROADCAST_STICKY
+
+      android.permission.CALL_PHONE
+
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE
+
+      android.permission.BIND_JOB_SERVICE
+
+      android.permission.CONFIRM_FULL_BACKUP
+
+      android.permission.CHANGE_WIFI_STATE
+
+      android.permission.SET_ORIENTATION
+
+      android.permission.MANAGE_USERS
+
+      android.permission.SET_PREFERRED_APPLICATIONS
+
+      android.permission.DELETE_CACHE_FILES
+
+      android.permission.ACCESS_NETWORK_STATE
+
+      android.permission.DISABLE_KEYGUARD
+
+      android.permission.CAMERA
+
+      android.permission.CHANGE_CONFIGURATION
+
+      android.permission.READ_LOGS
+
+      android.permission.INTERACT_ACROSS_USERS
+
+      android.permission.SET_WALLPAPER
+
+      android.permission.KILL_BACKGROUND_PROCESSES
+
+      android.permission.MOUNT_FORMAT_FILESYSTEMS
+
+      android.permission.CLEAR_APP_CACHE
+
+      android.permission.CONNECTIVITY_INTERNAL
+
+      android.permission.WRITE_EXTERNAL_STORAGE
+
+      android.permission.VIBRATE
+
+      android.permission.BIND_ACCESSIBILITY_SERVICE
+
+      android.permission.BIND_INPUT_METHOD
+
+      android.permission.GET_DETAILED_TASKS
+
+      android.permission.ACCESS_WIFI_STATE
+
+      android.permission.READ_FRAME_BUFFER
+
+      android.permission.RECORD_AUDIO
+
+      android.permission.LOCATION_HARDWARE
+
+      android.permission.WAKE_LOCK
+
+      android.permission.INJECT_EVENTS
+
+      android.permission.SET_SCREEN_COMPATIBILITY
+
+      android.permission.DELETE_PACKAGES
+

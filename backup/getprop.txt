@@ -1,0 +1,446 @@
+[SuspendToRam]: [1]
+
+[YouKu.Version]: [v1.0]
+
+[audio.in.device.vaudio]: [disable]
+
+[bootVideo.playing]: [0]
+
+[bootanim.bootup]: [1]
+
+[ctrl.start]: [bootvolumeadjust]
+
+[dalvik.vm.checkjni]: [false]
+
+[dalvik.vm.dex2oat-Xms]: [64m]
+
+[dalvik.vm.dex2oat-Xmx]: [512m]
+
+[dalvik.vm.dexopt-flags]: [m=y]
+
+[dalvik.vm.heapgrowthlimit]: [136m]
+
+[dalvik.vm.heapmaxfree]: [8m]
+
+[dalvik.vm.heapminfree]: [512k]
+
+[dalvik.vm.heapsize]: [448m]
+
+[dalvik.vm.heapstartsize]: [12m]
+
+[dalvik.vm.heaptargetutilization]: [0.75]
+
+[dalvik.vm.image-dex2oat-Xms]: [64m]
+
+[dalvik.vm.image-dex2oat-Xmx]: [64m]
+
+[dalvik.vm.isa.arm.features]: [div]
+
+[dalvik.vm.stack-trace-file]: [/data/anr/traces.txt]
+
+[debug.force_rtl]: [0]
+
+[dev.bootcomplete]: [1]
+
+[dev.mic.select]: [USBMIC]
+
+[dhcp.eth0.result]: [failed]
+
+[dhcp.wlan0.dns1]: [223.5.5.5]
+
+[dhcp.wlan0.dns2]: [119.29.29.29]
+
+[dhcp.wlan0.dns3]: [10.10.10.1]
+
+[dhcp.wlan0.dns4]: []
+
+[dhcp.wlan0.domain]: []
+
+[dhcp.wlan0.gateway]: [10.10.10.1]
+
+[dhcp.wlan0.ipaddress]: [10.10.10.27]
+
+[dhcp.wlan0.leasetime]: [86400]
+
+[dhcp.wlan0.mask]: [255.255.255.0]
+
+[dhcp.wlan0.mtu]: []
+
+[dhcp.wlan0.pid]: [1879]
+
+[dhcp.wlan0.reason]: [REBOOT]
+
+[dhcp.wlan0.result]: [ok]
+
+[dhcp.wlan0.server]: [10.10.10.1]
+
+[dhcp.wlan0.vendorInfo]: []
+
+[during.first.set.source]: [0]
+
+[ethernet.interface]: [eth0]
+
+[first.set.source]: [0]
+
+[init.svc.FileDesc_server]: [running]
+
+[init.svc.KeypadService]: [running]
+
+[init.svc.adbd]: [running]
+
+[init.svc.bootanim]: [stopped]
+
+[init.svc.bootvideoready]: [1]
+
+[init.svc.bootvolumeadjust]: [stopped]
+
+[init.svc.console]: [running]
+
+[init.svc.debuggerd]: [running]
+
+[init.svc.dhcpcd_eth0]: [stopped]
+
+[init.svc.dhcpcd_wlan0]: [running]
+
+[init.svc.drm]: [running]
+
+[init.svc.hardwared]: [running]
+
+[init.svc.healthd]: [running]
+
+[init.svc.iflyekdeamon]: [running]
+
+[init.svc.install-app]: [stopped]
+
+[init.svc.installd]: [running]
+
+[init.svc.kdmServer]: [running]
+
+[init.svc.keystore]: [running]
+
+[init.svc.konkatouchpad]: [running]
+
+[init.svc.lmkd]: [running]
+
+[init.svc.logd]: [running]
+
+[init.svc.media]: [running]
+
+[init.svc.netd]: [running]
+
+[init.svc.p2p_supplicant]: [running]
+
+[init.svc.pvrsrvctl]: [stopped]
+
+[init.svc.rtw_fwloader]: [stopped]
+
+[init.svc.servicemanager]: [running]
+
+[init.svc.surfaceflinger]: [running]
+
+[init.svc.tmpFactory]: [stopped]
+
+[init.svc.tvserver-setup]: [stopped]
+
+[init.svc.ueventd]: [running]
+
+[init.svc.vold]: [running]
+
+[init.svc.zygote]: [running]
+
+[konka.auto.source.async]: [true]
+
+[konka.auto.source.delay]: [1000]
+
+[konka.build]: [4556]
+
+[konka.childrenlock.handleKey]: [false]
+
+[konka.disable_sound_effect]: [1]
+
+[konka.forcelandscape]: [1]
+
+[konka.interceptorkey.timeout]: [700]
+
+[konka.isFiveDirectionKeypad]: [0]
+
+[konka.need.wait.boot.video]: [true]
+
+[konka.noactivity.need.sa]: [false]
+
+[konka.noactivity.need.sw]: [false]
+
+[konka.panel.inch]: [55]
+
+[konka.platform]: [rtd299o]
+
+[konka.sales.area]: [China]
+
+[konka.setInputSource]: [finish]
+
+[konka.setvideopattern]: [false]
+
+[konka.show.ams.dialog]: [false]
+
+[konka.start.home.delay.boot]: [3000]
+
+[konka.start.home.delay.rotated]: [100]
+
+[konka.start.home.delay.tv]: [100]
+
+[konka.under.online.player]: [false]
+
+[konka.version]: [V1.0.05]
+
+[konka.wait.boot.video]: [11]
+
+[media.sf.enable_vo]: [1]
+
+[media.sf.enable_vo_zero_copy]: [1]
+
+[net.bt.name]: [Android]
+
+[net.change]: [net.dns3]
+
+[net.dns1]: [223.5.5.5]
+
+[net.dns2]: [119.29.29.29]
+
+[net.dns3]: [10.10.10.1]
+
+[net.hostname]: [android-84949da903024261]
+
+[net.qtaguid_enabled]: [0]
+
+[net.tcp.default_init_rwnd]: [60]
+
+[persist.adb.notify]: [1]
+
+[persist.service.adb.enable]: []
+
+[persist.service.bdroid.bdaddr]: [22:22:d3:55:f1:bf]
+
+[persist.sys.boot_first]: [false]
+
+[persist.sys.country]: [CN]
+
+[persist.sys.dalvik.vm.lib.2]: [libart.so]
+
+[persist.sys.first_run]: [0]
+
+[persist.sys.language]: [zh]
+
+[persist.sys.laterscan.enable]: [true]
+
+[persist.sys.profiler_ms]: [0]
+
+[persist.sys.strictmode.disable]: [1]
+
+[persist.sys.strictmode.visual]: [0]
+
+[persist.sys.timezone]: [Asia/Shanghai]
+
+[persist.sys.usb.config]: [mtp]
+
+[qemu.hw.mainkeys]: [1]
+
+[ro.adb.secure]: [1]
+
+[ro.allow.mock.location]: [0]
+
+[ro.audio.monitorRotation]: [true]
+
+[ro.baseband]: [unknown]
+
+[ro.board.platform]: [rtd299o]
+
+[ro.boot.console]: [ttyS0]
+
+[ro.bootloader]: [unknown]
+
+[ro.bootmode]: [unknown]
+
+[ro.bt.bdaddr_path]: [/data/misc/bluetooth/bdaddr]
+
+[ro.build.characteristics]: [tv]
+
+[ro.build.date.utc]: [1509704795]
+
+[ro.build.date]: [Fri Nov  3 18:26:35 CST 2017]
+
+[ro.build.description]: [rtd299o_tv001-user 5.1.1 LMY47V eng.wangyuying.20171103.182345 dev-keys]
+
+[ro.build.display.id]: [LMY47V dev-keys]
+
+[ro.build.fingerprint]: [Konka/rtd299o_tv001/rtd299o_tv001:5.1.1/LMY47V/wangyuying11031826:user/dev-keys]
+
+[ro.build.flavor]: [rtd299o_tv001-user]
+
+[ro.build.host]: [ubuntu]
+
+[ro.build.id]: [LMY47V]
+
+[ro.build.product]: [rtd299o_tv001]
+
+[ro.build.romoutmodel]: [kjwf]
+
+[ro.build.tags]: [dev-keys]
+
+[ro.build.type]: [user]
+
+[ro.build.user]: [wangyuying]
+
+[ro.build.version.addon]: [71]
+
+[ro.build.version.all_codenames]: [REL]
+
+[ro.build.version.codename]: [REL]
+
+[ro.build.version.incremental]: [eng.wangyuying.20171103.182345]
+
+[ro.build.version.release]: [5.1.1]
+
+[ro.build.version.sdk]: [22]
+
+[ro.carrier]: [unknown]
+
+[ro.com.android.dateformat]: [MM-dd-yyyy]
+
+[ro.config.alarm_alert]: [Alarm_Classic.ogg]
+
+[ro.config.max_starting_bg]: [20]
+
+[ro.config.notification_sound]: [pixiedust.ogg]
+
+[ro.config.ringtone]: [Ring_Synth_04.ogg]
+
+[ro.crypto.fuse_sdcard]: [true]
+
+[ro.crypto.state]: [unencrypted]
+
+[ro.dalvik.vm.native.bridge]: [0]
+
+[ro.debuggable]: [0]
+
+[ro.enable_boot_charger_mode]: [1]
+
+[ro.factorytest]: [0]
+
+[ro.hardware.gps]: [bcm47521]
+
+[ro.hardware]: [rtd299o]
+
+[ro.hwui.disable_scissor_opt]: [true]
+
+[ro.hwui.drop_shadow_cache_size]: [6]
+
+[ro.hwui.gradient_cache_size]: [1]
+
+[ro.hwui.layer_cache_size]: [48]
+
+[ro.hwui.path_cache_size]: [32]
+
+[ro.hwui.r_buffer_cache_size]: [8]
+
+[ro.hwui.text_large_cache_height]: [1024]
+
+[ro.hwui.text_large_cache_width]: [2048]
+
+[ro.hwui.text_small_cache_height]: [1024]
+
+[ro.hwui.text_small_cache_width]: [1024]
+
+[ro.hwui.texture_cache_flushrate]: [0.8]
+
+[ro.hwui.texture_cache_size]: [72]
+
+[ro.opengles.version]: [196609]
+
+[ro.product.board]: [rtd299o_tv001]
+
+[ro.product.brand]: [Konka]
+
+[ro.product.cpu.abi2]: [armeabi]
+
+[ro.product.cpu.abi]: [armeabi-v7a]
+
+[ro.product.cpu.abilist32]: [armeabi-v7a,armeabi]
+
+[ro.product.cpu.abilist64]: []
+
+[ro.product.cpu.abilist]: [armeabi-v7a,armeabi]
+
+[ro.product.device]: [rtd299o_tv001]
+
+[ro.product.locale.language]: [en]
+
+[ro.product.locale.region]: [US]
+
+[ro.product.manufacturer]: [Konka]
+
+[ro.product.model]: [Konka Android TV 2991]
+
+[ro.product.name]: [rtd299o_tv001]
+
+[ro.revision]: [0]
+
+[ro.rtk.force_usb_adb]: [1]
+
+[ro.rtk.storage.usb_mp]: [/mnt/media_rw/udisk]
+
+[ro.rtk.system.type]: [TV]
+
+[ro.rtk.vold.b64_label]: [1]
+
+[ro.rtk.vold.label_enc]: [gbk]
+
+[ro.runtime.firstboot]: [29536]
+
+[ro.secure]: [1]
+
+[ro.serialno]: []
+
+[ro.sf.lcd_density]: [240]
+
+[ro.wifi.channels]: []
+
+[ro.zygote]: [zygote32]
+
+[rtk.LeftRightKeyRepeatDelay]: [0]
+
+[rtk.bt.a2dp.mrpc]: [false]
+
+[rtk.bt.a2dp.thread]: [true]
+
+[rtk.current.apk]: [com.konka.tvsettings]
+
+[rtk.launcher.no_tv]: [0]
+
+[rtk.set_ir_mouse]: [0]
+
+[rtk.wifi.module_name]: [8192eu]
+
+[selinux.reload_policy]: [1]
+
+[service.bootanim.exit]: [1]
+
+[sys.boot_completed]: [1]
+
+[sys.settings_global_version]: [1]
+
+[sys.settings_system_version]: [10]
+
+[sys.sysctl.extra_free_kbytes]: [24300]
+
+[sys.sysctl.tcp_def_init_rwnd]: [60]
+
+[sys.usb.config]: [mtp]
+
+[sys.usb.state]: [mtp]
+
+[vold.post_fs_data_done]: [1]
+
+[wifi.interface]: [wlan0]
+
+[wlan.driver.status]: [ok]
+

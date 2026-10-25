@@ -1,0 +1,304 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+
+Display #0 (activities from top to bottom):
+
+  Stack #1:
+
+    Task id #22
+
+    * TaskRecord{12b6fc8b #22 A=com.konka.tvsettings U=0 sz=1}
+
+      userId=0 effectiveUid=u0a19 mCallingUid=1000 mCallingPackage=com.konka.bootlogicproxy
+
+      affinity=com.konka.tvsettings
+
+      intent={flg=0x10000000 cmp=com.konka.tvsettings/.RootActivity}
+
+      realActivity=com.konka.tvsettings/.RootActivity
+
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+
+      Activities=[ActivityRecord{18a07b7c u0 com.konka.tvsettings/.RootActivity t22}]
+
+      askedCompatMode=false inRecents=true isAvailable=true
+
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/22_task_thumbnail.png
+
+      hasBeenVisible=true firstActiveTime=2767347 lastActiveTime=2767347 (inactive for 599s)
+
+      * Hist #0: ActivityRecord{18a07b7c u0 com.konka.tvsettings/.RootActivity t22}
+
+          packageName=com.konka.tvsettings processName=com.konka.tvsettings
+
+          launchedFromUid=1000 launchedFromPackage=com.konka.bootlogicproxy userId=0
+
+          app=ProcessRecord{175e1168 1359:com.konka.tvsettings/u0a19}
+
+          Intent { flg=0x10000000 cmp=com.konka.tvsettings/.RootActivity }
+
+          frontOfTask=true task=TaskRecord{12b6fc8b #22 A=com.konka.tvsettings U=0 sz=1}
+
+          taskAffinity=com.konka.tvsettings
+
+          realActivity=com.konka.tvsettings/.RootActivity
+
+          baseDir=/system/app/TVSettings4_obstinate/TVSettings4_obstinate.apk
+
+          dataDir=/data/data/com.konka.tvsettings
+
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+
+          compat={240dpi always-compat} labelRes=0x7f0a0000 icon=0x7f020027 theme=0x7f100008
+
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw720dp w1280dp h720dp 240dpi xlrg long land television -touch qwerty/v/v -nav/h s.4}
+
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+
+          launchFailed=false launchCount=0 lastLaunchTime=-55m46s727ms
+
+          haveState=false icicle=null
+
+          state=RESUMED stopped=false delayedResume=false finishing=false
+
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true
+
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+
+          frozenBeforeDestroy=false forceNewConfig=false
+
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+
+          waitingVisible=false nowVisible=true lastVisibleTime=-11m50s29ms
+
+    Task id #24
+
+    * TaskRecord{3acb4981 #24 A=com.konka.systemsetting U=0 sz=1}
+
+      userId=0 effectiveUid=1000 mCallingUid=u0a11 mCallingPackage=com.dangbei.leradlauncher.rom
+
+      affinity=com.konka.systemsetting
+
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.konka.systemsetting cmp=com.konka.systemsetting/.MainActivity}
+
+      realActivity=com.konka.systemsetting/.MainActivity
+
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+
+      Activities=[ActivityRecord{2f61cd56 u0 com.konka.systemsetting/.MainActivity t24}]
+
+      askedCompatMode=false inRecents=true isAvailable=true
+
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/24_task_thumbnail.png
+
+      hasBeenVisible=true firstActiveTime=2653918 lastActiveTime=2653918 (inactive for 713s)
+
+      * Hist #0: ActivityRecord{2f61cd56 u0 com.konka.systemsetting/.MainActivity t24}
+
+          packageName=com.konka.systemsetting processName=com.konka.systemsetting
+
+          launchedFromUid=10011 launchedFromPackage=com.dangbei.leradlauncher.rom userId=0
+
+          app=ProcessRecord{13b9ca26 2656:com.konka.systemsetting/1000}
+
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.konka.systemsetting cmp=com.konka.systemsetting/.MainActivity }
+
+          frontOfTask=true task=TaskRecord{3acb4981 #24 A=com.konka.systemsetting U=0 sz=1}
+
+          taskAffinity=com.konka.systemsetting
+
+          realActivity=com.konka.systemsetting/.MainActivity
+
+          baseDir=/system/app/SettingsCenter/SettingsCenter.apk
+
+          dataDir=/data/data/com.konka.systemsetting
+
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+
+          compat={240dpi always-compat} labelRes=0x7f0f0000 icon=0x7f020039 theme=0x7f100004
+
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw720dp w1280dp h720dp 240dpi xlrg long land television -touch qwerty/v/v -nav/h s.4}
+
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+
+          launchFailed=false launchCount=0 lastLaunchTime=-11m57s836ms
+
+          haveState=true icicle=Bundle[mParcelledData.dataSize=880]
+
+          state=STOPPED stopped=true delayedResume=false finishing=false
+
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+
+          frozenBeforeDestroy=false forceNewConfig=false
+
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+
+          waitingVisible=false nowVisible=false lastVisibleTime=-11m56s691ms
+
+
+
+    Running activities (most recent first):
+
+      TaskRecord{12b6fc8b #22 A=com.konka.tvsettings U=0 sz=1}
+
+        Run #1: ActivityRecord{18a07b7c u0 com.konka.tvsettings/.RootActivity t22}
+
+      TaskRecord{3acb4981 #24 A=com.konka.systemsetting U=0 sz=1}
+
+        Run #0: ActivityRecord{2f61cd56 u0 com.konka.systemsetting/.MainActivity t24}
+
+
+
+    mResumedActivity: ActivityRecord{18a07b7c u0 com.konka.tvsettings/.RootActivity t22}
+
+    mLastPausedActivity: ActivityRecord{108a21fe u0 com.konka.kkfactory/.FactoryHome t26 f}
+
+
+
+  Stack #0:
+
+    Task id #23
+
+    * TaskRecord{116d667 #23 A=com.dangbei.leradlauncher.rom U=0 sz=2}
+
+      userId=0 effectiveUid=u0a11 mCallingUid=1000 mCallingPackage=com.konka.bootlogicproxy
+
+      affinity=com.dangbei.leradlauncher.rom
+
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.dangbei.leradlauncher.rom/com.lerad.launcher.home.ui.home.MainHomeActivity}
+
+      realActivity=com.dangbei.leradlauncher.rom/com.lerad.launcher.home.ui.home.MainHomeActivity
+
+      autoRemoveRecents=false isPersistable=true numFullscreen=2 taskType=1 mTaskToReturnTo=0
+
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+
+      Activities=[ActivityRecord{36b6868b u0 com.dangbei.leradlauncher.rom/com.lerad.launcher.home.ui.home.MainHomeActivity t23}, ActivityRecord{2efd8909 u0 com.dangbei.leradlauncher.rom/.ui.active.RomActiveActivity t23}]
+
+      askedCompatMode=false inRecents=true isAvailable=true
+
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/23_task_thumbnail.png
+
+      hasBeenVisible=true firstActiveTime=2649092 lastActiveTime=2649092 (inactive for 717s)
+
+      * Hist #1: ActivityRecord{2efd8909 u0 com.dangbei.leradlauncher.rom/.ui.active.RomActiveActivity t23}
+
+          packageName=com.dangbei.leradlauncher.rom processName=com.dangbei.leradlauncher.rom
+
+          launchedFromUid=10011 launchedFromPackage=com.dangbei.leradlauncher.rom userId=0
+
+          app=ProcessRecord{26b6dc14 1173:com.dangbei.leradlauncher.rom/u0a11}
+
+          Intent { cmp=com.dangbei.leradlauncher.rom/.ui.active.RomActiveActivity (has extras) }
+
+          frontOfTask=false task=TaskRecord{116d667 #23 A=com.dangbei.leradlauncher.rom U=0 sz=2}
+
+          taskAffinity=com.dangbei.leradlauncher.rom
+
+          realActivity=com.dangbei.leradlauncher.rom/.ui.active.RomActiveActivity
+
+          baseDir=/data/app/com.dangbei.leradlauncher.rom-1/base.apk
+
+          dataDir=/data/data/com.dangbei.leradlauncher.rom
+
+          stateNotNeeded=false componentSpecified=true mActivityType=1
+
+          compat={240dpi always-compat} labelRes=0x7f0c001d icon=0x7f0b0000 theme=0x7f0d00a7
+
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw720dp w1280dp h720dp 240dpi xlrg long land television -touch qwerty/v/v -nav/h s.4}
+
+          taskDescription: iconFilename=null label="null" color=fff5f5f5
+
+          launchFailed=false launchCount=0 lastLaunchTime=-52m43s779ms
+
+          haveState=true icicle=Bundle[mParcelledData.dataSize=972]
+
+          state=STOPPED stopped=true delayedResume=false finishing=false
+
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+
+          frozenBeforeDestroy=false forceNewConfig=false
+
+          mActivityType=HOME_ACTIVITY_TYPE
+
+          waitingVisible=false nowVisible=false lastVisibleTime=-52m42s112ms
+
+      * Hist #0: ActivityRecord{36b6868b u0 com.dangbei.leradlauncher.rom/com.lerad.launcher.home.ui.home.MainHomeActivity t23}
+
+          packageName=com.dangbei.leradlauncher.rom processName=com.dangbei.leradlauncher.rom
+
+          launchedFromUid=1000 launchedFromPackage=com.konka.bootlogicproxy userId=0
+
+          app=ProcessRecord{26b6dc14 1173:com.dangbei.leradlauncher.rom/u0a11}
+
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.dangbei.leradlauncher.rom/com.lerad.launcher.home.ui.home.MainHomeActivity (has extras) }
+
+          frontOfTask=true task=TaskRecord{116d667 #23 A=com.dangbei.leradlauncher.rom U=0 sz=2}
+
+          taskAffinity=com.dangbei.leradlauncher.rom
+
+          realActivity=com.dangbei.leradlauncher.rom/com.lerad.launcher.home.ui.home.MainHomeActivity
+
+          baseDir=/data/app/com.dangbei.leradlauncher.rom-1/base.apk
+
+          dataDir=/data/data/com.dangbei.leradlauncher.rom
+
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+
+          compat={240dpi always-compat} labelRes=0x7f0c001d icon=0x7f0b0000 theme=0x7f0d00a6
+
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw720dp w1280dp h720dp 240dpi xlrg long land television -touch qwerty/v/v -nav/h s.4}
+
+          taskDescription: iconFilename=null label="null" color=fff5f5f5
+
+          launchFailed=false launchCount=0 lastLaunchTime=-55m46s180ms
+
+          haveState=true icicle=Bundle[mParcelledData.dataSize=1176]
+
+          state=STOPPED stopped=true delayedResume=false finishing=false
+
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+
+          frozenBeforeDestroy=false forceNewConfig=false
+
+          mActivityType=HOME_ACTIVITY_TYPE
+
+          waitingVisible=false nowVisible=false lastVisibleTime=-55m41s900ms
+
+
+
+    Running activities (most recent first):
+
+      TaskRecord{116d667 #23 A=com.dangbei.leradlauncher.rom U=0 sz=2}
+
+        Run #1: ActivityRecord{2efd8909 u0 com.dangbei.leradlauncher.rom/.ui.active.RomActiveActivity t23}
+
+        Run #0: ActivityRecord{36b6868b u0 com.dangbei.leradlauncher.rom/com.lerad.launcher.home.ui.home.MainHomeActivity t23}
+
+
+
+    mLastPausedActivity: ActivityRecord{2efd8909 u0 com.dangbei.leradlauncher.rom/.ui.active.RomActiveActivity t23}
+
+
+
+  mFocusedActivity: ActivityRecord{18a07b7c u0 com.konka.tvsettings/.RootActivity t22}
+
+  mFocusedStack=ActivityStack{3e61fcbd stackId=1, 2 tasks} mLastFocusedStack=ActivityStack{3e61fcbd stackId=1, 2 tasks}
+
+  mSleepTimeout=false
+
+  mCurTaskId=26
+
+  mUserStackInFront={}
+
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
+

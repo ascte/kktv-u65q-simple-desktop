@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- pitch black rounded square -->
+    <path
+        android:fillColor="#0A0A0A"
+        android:pathData="M22,4h64a18,18 0 0 1 18,18v64a18,18 0 0 1 -18,18h-64a18,18 0 0 1 -18,-18v-64a18,18 0 0 1 18,-18z"/>
+    <!-- white rounded pill glyph -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M38,42h32a8,8 0 0 1 8,8v8a8,8 0 0 1 -8,8h-32a8,8 0 0 1 -8,-8v-8a8,8 0 0 1 8,-8z"/>
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M54,58m-5,0a5,5 0 1 0 10,0a5,5 0 1 0 -10,0"/>
+</vector>

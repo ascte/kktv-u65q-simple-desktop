@@ -1,0 +1,96 @@
+=== global ===
+
+global.adb_enabled=0
+
+global.adb_port=null
+
+global.install_non_market_apps=null
+
+global.package_verifier_enable=1
+
+global.package_verifier_user_consent=null
+
+global.verifier_verify_adb_installs=null
+
+global.wifi_on=1
+
+global.sleep_never=null
+
+global.android_id=null
+
+global.default_input_method=null
+
+global.enabled_accessibility_services=null
+
+global.bluetooth_on=1
+
+global.development_settings_enabled=null
+
+=== secure ===
+
+secure.adb_enabled=null
+
+secure.adb_port=null
+
+secure.install_non_market_apps=1
+
+secure.package_verifier_enable=null
+
+secure.package_verifier_user_consent=null
+
+secure.verifier_verify_adb_installs=null
+
+secure.wifi_on=null
+
+secure.sleep_never=null
+
+secure.android_id=84949da903024261
+
+secure.default_input_method=com.iflytek.xiri.ime/.InputMethod
+
+secure.enabled_accessibility_services=com.iflytek.xiri2.system/com.iflytek.xiri.system.SystemPluginAccessableS:com.iflytek.xiri/tv.yuyin.XiriAccessibilityService
+
+secure.bluetooth_on=null
+
+secure.development_settings_enabled=null
+
+=== system ===
+
+system.adb_enabled=null
+
+system.adb_port=null
+
+system.install_non_market_apps=null
+
+system.package_verifier_enable=null
+
+system.package_verifier_user_consent=null
+
+system.verifier_verify_adb_installs=null
+
+system.wifi_on=null
+
+system.sleep_never=null
+
+system.android_id=null
+
+system.default_input_method=null
+
+system.enabled_accessibility_services=null
+
+system.bluetooth_on=null
+
+system.development_settings_enabled=null
+
+=== wm ===
+
+Physical size: 1920x1080
+
+Physical density: 240
+
+=== users ===
+
+Users:
+
+	UserInfo{0:机主:13} running
+

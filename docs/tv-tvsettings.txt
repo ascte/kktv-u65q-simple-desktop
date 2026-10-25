@@ -1,0 +1,164 @@
+Activity Resolver Table:
+
+  Non-Data Actions:
+
+      com.konka.tvsettings.intent.action.RootActivity:
+
+        36319ce0 com.konka.tvsettings/.RootActivity
+
+      android.intent.action.MAIN:
+
+        36319ce0 com.konka.tvsettings/.RootActivity
+
+
+
+Receiver Resolver Table:
+
+  Non-Data Actions:
+
+      com.konka.tv.startTopMenuDEMANA:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      com.konka.GO_TO_TV:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      com.konka.GO_TO_EPG:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      com.konka.tvsettings.action.PROGRAM_UP:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      com.konka.tv.hotkey.NO_SIGNAL:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      com.iflyek.TVDCS.STBSTATUS:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      com.konka.tvsettings.action.SHOW_MENU:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      konka.action.INPUT_SOURCE_CHANGED:
+
+        21674102 com.konka.tvsettings/.collection.TvSourceCollector
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      com.konka.tvsettings.action.SUICIDE:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      com.konka.tvsettings.action.GO_TO_SOURCEPAGE:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+      konka.voice.control.action.TV:
+
+        26d49098 com.konka.tvsettings/.voicecontrol.VoiceControlReceiver
+
+      com.konka.tvsettings.action.PROGRAM_DOWN:
+
+        2c20696d com.konka.tvsettings/.TVEventReceiver
+
+
+
+Registered ContentProviders:
+
+  com.konka.tvsettings/.common.AtvDataContentProvider:
+
+    Provider{1664e1a8 com.konka.tvsettings/.common.AtvDataContentProvider}
+
+
+
+ContentProvider Authorities:
+
+  [com.konka.tvsettings]:
+
+    Provider{1664e1a8 com.konka.tvsettings/.common.AtvDataContentProvider}
+
+      applicationInfo=ApplicationInfo{33577187 com.konka.tvsettings}
+
+
+
+Key Set Manager:
+
+  [com.konka.tvsettings]
+
+      Signing KeySets: 2
+
+
+
+Packages:
+
+  Package [com.konka.tvsettings] (5669455):
+
+    userId=10019 gids=[1015, 1023, 1006, 3003, 1028]
+
+    pkg=Package{1c9d3e6a com.konka.tvsettings}
+
+    codePath=/system/app/TVSettings4_obstinate
+
+    resourcePath=/system/app/TVSettings4_obstinate
+
+    legacyNativeLibraryDir=/system/app/TVSettings4_obstinate/lib
+
+    primaryCpuAbi=null
+
+    secondaryCpuAbi=null
+
+    versionCode=83171 targetSdk=23
+
+    versionName=4.1.83171
+
+    splits=[base]
+
+    applicationInfo=ApplicationInfo{33577187 com.konka.tvsettings}
+
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+
+    dataDir=/data/data/com.konka.tvsettings
+
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+
+    timeStamp=1970-01-01 08:00:40
+
+    firstInstallTime=1970-01-01 08:00:40
+
+    lastUpdateTime=1970-01-01 08:00:40
+
+    signatures=PackageSignatures{7f40f5b [57ec476]}
+
+    permissionsFixed=false haveGids=true installStatus=1
+
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+
+    grantedPermissions:
+
+      android.permission.WRITE_SETTINGS
+
+      android.permission.SYSTEM_ALERT_WINDOW
+
+      android.permission.GET_TASKS
+
+      android.permission.INTERNET
+
+      android.permission.READ_EXTERNAL_STORAGE
+
+      android.permission.READ_PHONE_STATE
+
+      android.permission.ACCESS_NETWORK_STATE
+
+      android.permission.CAMERA
+
+      android.permission.WRITE_EXTERNAL_STORAGE
+
+      android.permission.ACCESS_WIFI_STATE
+
